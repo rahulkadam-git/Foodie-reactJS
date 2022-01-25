@@ -1,0 +1,49 @@
+
+@import "./Recipe";
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.header{
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.search-form{
+  
+    background-color: rgb(231, 224, 224);
+    border-radius: 10px;
+    padding: 0.5rem ;
+   
+}
+
+input{
+    padding: 0.5em 2rem; 
+    border: none;
+   
+    
+}
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(231, 224, 224);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
